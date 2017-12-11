@@ -18,7 +18,6 @@ import javax.persistence.Table;
 @Table(name="BON")
 public class Bon {
 	
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Id
 	private int id;
 	
